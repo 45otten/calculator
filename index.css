@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background:linear-gradient(to top,rgba(0, 0, 0, 0.329)50%,rgba(0, 0, 0, 0.342)50%),url('maxresdefault.jpg');
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%),url('maxresdefault.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
