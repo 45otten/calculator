@@ -127,3 +127,9 @@ document.getElementById("submitbtn5").onclick=function(){
   document.getElementById("p5").innerHTML=("Square root of "+x+" = "+y)
 }
 
+document.getElementById("submitbtn6").onclick=function(){
+  x=document.getElementById("abs").value;
+  y=Math.abs(x)
+  document.getElementById("p6").innerHTML=("Absolute value of "+x+" = "+y)
+}
+
