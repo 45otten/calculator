@@ -112,5 +112,18 @@ document.getElementById("submitbtn3").onclick=function(){
   area=1/2*(height*base);
   document.getElementById("p3").innerHTML=("Area of triangle= "+area);
 }
-
+let x;
+let y;
+x=Number(x);
+y=Number(y);
+document.getElementById("submitbtn4").onclick=function(){
+  x=document.getElementById("sqr").value;
+  y=Math.pow(x,2);
+  document.getElementById("p4").innerHTML=("Square of "+x+" = "+y)
+}
+document.getElementById("submitbtn5").onclick=function(){
+  x=document.getElementById("sqrt").value;
+  y=Math.sqrt(x)
+  document.getElementById("p5").innerHTML=("Square root of "+x+" = "+y)
+}
 
