@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="index.css">
     <title>Online Calculator</title>
 </head>
-<body>
+<body>   
     <div class="cal">
         <div class="circle">
             <!-- for circle -->
             <h1>Calculating the circumference of a circle:</h1>
 
-            <input id="radius" type="number" placeholder="radius">
+            <input id="radius" type="number" placeholder="radius" required>
             <button id="submitbtn1" type="submit">submit</button>
 
             <p id="p1">Circumferance=</p>
@@ -21,8 +21,8 @@
         <div class="rect">
             <h1>Calculating Area of rectangle</h1>
             
-            <input id="length" type="number" placeholder="length">
-            <input id="width" type="number" placeholder="width">
+            <input id="length" type="number" placeholder="length" required>
+            <input id="width" type="number" placeholder="width" required>
             <button id="submitbtn2" type="submit">submit</button>
             
             <p id="p2">Area of rectangle=</p>
@@ -31,38 +31,61 @@
         <!-- for triangle -->
             <h1>Area of Trinagle</h1>
             
-            <input id="height" type="number" placeholder="height">
-            <input id="base" type="number" placeholder="base">
+            <input id="height" type="number" placeholder="height" required>
+            <input id="base" type="number" placeholder="base" required>
             <button id="submitbtn3" type="submit">submit</button>
             
             <p id="p3">Area of triangle=</p>
         </div>
         <div class="power">
-            <!-- for triangle -->
+            <!-- for square -->
                 <h1>Square of your number</h1>
                 
-                <input id="sqr" type="number" placeholder="Your number">
+                <input id="sqr" type="number" placeholder="Your number" required>
                 <button id="submitbtn4" type="submit">submit</button>
                 
                 <p id="p4">Square of your number=</p>
         </div>
         <div class="sqrt">
-            <!-- for triangle -->
+            <!-- for squareroot of a number -->
                 <h1>Square root of number</h1>
                 
-                <input id="sqrt" type="number" placeholder="Your number">
+                <input id="sqrt" type="number" placeholder="Your number" required>
                 <button id="submitbtn5" type="submit">submit</button>
                 
                 <p id="p5">Square root of number=</p>
         </div>
         <div class="abs">
-            <!-- for triangle -->
+            <!-- for absolute number -->
                 <h1>Absolute value</h1>
                 
-                <input id="abs" type="number" placeholder="Your number">
+                <input id="abs" type="number" placeholder="Your number" required>
                 <button id="submitbtn6" type="submit">submit</button>
                 
                 <p id="p6">Absolute value of=</p>
+        </div>
+        <div class="max-min">
+            <!-- for absolute number -->
+                <h1>Max and Min</h1>
+                
+                <input id="numb1" type="number" placeholder="Your number" required>
+                <input id="numb2" type="number" placeholder="Your number" required>
+                <input id="numb3" type="number" placeholder="Your number" required>
+                <button id="submitbtn7" type="submit">submit</button>
+                
+                <p id="p7">Maximum value=</p>
+                <p id="p8">Minimum value=</p>
+        </div>
+        <div class="Quadratic Equation">
+            <!-- for Quadratic equation -->
+                <h1>Quadratic Equation(ax^2+by+c)</h1>
+                
+                <input id="numb4" type="number" placeholder="a" required>
+                <input id="numb5" type="number" placeholder="b" required>
+                <input id="numb6" type="number" placeholder="c" required>
+                <button id="submitbtn8" type="submit">submit</button>
+                
+                <p id="p9">Answer=</p>
         </div>
             
     </div>

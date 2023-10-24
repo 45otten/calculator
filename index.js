@@ -114,8 +114,10 @@ document.getElementById("submitbtn3").onclick=function(){
 }
 let x;
 let y;
+let z;
 x=Number(x);
 y=Number(y);
+z=Number(z);
 document.getElementById("submitbtn4").onclick=function(){
   x=document.getElementById("sqr").value;
   y=Math.pow(x,2);
@@ -131,5 +133,37 @@ document.getElementById("submitbtn6").onclick=function(){
   x=document.getElementById("abs").value;
   y=Math.abs(x)
   document.getElementById("p6").innerHTML=("Absolute value of "+x+" = "+y)
+}
+let max;
+let min;
+document.getElementById("submitbtn7").onclick=function(){
+  x=document.getElementById("numb1").value;
+  y=document.getElementById("numb2").value;
+  z=document.getElementById("numb3").value;
+
+  max=Math.max(x,y,z);
+  min=Math.min(x,y,z);
+  document.getElementById("p7").innerHTML=("Maximum value = "+max);
+  document.getElementById("p8").innerHTML=("Minimum value = "+min);
+}
+
+let y1;
+let quad;
+let detr;
+
+document.getElementById("submitbtn8").onclick=function(){
+  x=document.getElementById("numb4").value;
+  y=document.getElementById("numb5").value,y=-y;
+  z=document.getElementById("numb6").value;
+  y1=Math.pow(y,2);
+  y1=Number(y1);
+  detr=y1-4*(x*z);
+  detr=Math.sqrt(detr);
+  detr=Number(detr);
+  quad=detr/(2*x);
+  quad=Number(quad);
+  quad = quad.toFixed(2);
+  document.getElementById("p9").innerHTML=("Answer= "+y+"+-"+"("+quad+")");
+  
 }
 
